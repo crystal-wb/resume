@@ -1,0 +1,83 @@
+            body{
+                margin: 0;
+                font-family: Arial;
+                background-color: #FFFFFF;
+            }
+            header{
+                background: url("/resume/images/unicorn_banner 1.png");
+                background-position: top center;
+                background-repeat: repeat;
+                height: 450px;
+                background-size: cover;
+                padding-bottom:25px;
+            }
+            nav{
+                overflow: hidden;
+            }
+            nav a: link{
+                float: right;
+                display: block;
+                text-align: center;
+                color:#FFFFFF;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            nav a: hover{
+                color:#FF8A00;
+            }
+            nav a: active{
+                color:#00C176;
+            }
+            nav a: visited{
+                color:#88C100;
+            }
+            h1{
+                color:#FF003C;
+                text-align:center;
+                margin-top: 270px;
+                background-color: #FABE28;
+            }
+            #about {
+                color:white;
+                margin-top: 20px;
+                text-align: center;
+                background:url(/resume/images/text_bg_1.png);
+                padding-bottom: 20px;
+            }
+            h2{
+                padding-top: 15px;
+            }
+            #logo{
+                height:40px;
+                width:40px;
+                float:left;
+                }
+            #kicker{
+                color:#FF003C;
+                text-align:center;
+                font-size:1.2em;
+                padding-top:5px;
+                padding-bottom: 12px;
+                background-color: #FABE28;
+                }
+            p{
+                padding-bottom: 10px;
+                padding-top: 12px;
+            }
+            footer{
+                margin-top: 30px;
+                background-color: #00C176;
+                color: white;
+                font-size: 16px;
+                padding-top: 14px;
+                padding-bottom: 16px;
+            }
+            footer a{
+                text-decoration: none;
+                color:#663366;
+            }
+            address{
+                margin-left: 20px;
+                text-decoration: none;
+            }
