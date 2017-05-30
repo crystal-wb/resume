@@ -7,14 +7,14 @@
                 background: url("/resume/images/unicorn_banner 1.png");
                 background-position: top center;
                 background-repeat: repeat;
-                height: 450px;
+                height: 458px;
                 background-size: cover;
                 padding-bottom:25px;
             }
             nav{
                 overflow: hidden;
             }
-            nav a: link{
+            nav a{
                 float: right;
                 display: block;
                 text-align: center;
@@ -34,9 +34,25 @@
             }
             h1{
                 color:#FF003C;
+                opacity: 0.8;
                 text-align:center;
-                margin-top: 270px;
+                margin-top: 294px;
                 background-color: #FABE28;
+            }
+            .style1{
+                margin-top: 40px;
+                padding-top: 50px;
+                color:#FF003C;
+                text-align: center;
+            }
+            .picstyle1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto
+            }
+            #about p{
+                margin-top: 50px;
+                color:#FF003C;
             }
             #about {
                 color:white;
@@ -45,8 +61,22 @@
                 background:url(/resume/images/text_bg_1.png);
                 padding-bottom: 20px;
             }
-            h2{
-                padding-top: 15px;
+            #work p{
+                margin-top: 50px;
+                color:#FF003C;
+            }
+            #work {
+                color:white;
+                margin-top: 20px;
+                text-align: justify;
+                background:url(/resume/images/text_bg_2.png);
+                padding-bottom: 20px;
+            }
+            .style2{
+                margin-top: 40px;
+                padding-top: 50px;
+                margin-left: 40px;
+                color:#FF003C;
             }
             #logo{
                 height:40px;
@@ -55,15 +85,23 @@
                 }
             #kicker{
                 color:#FF003C;
+                opacity: 0.8;
                 text-align:center;
                 font-size:1.2em;
-                padding-top:5px;
+                padding-top:10px;
                 padding-bottom: 12px;
                 background-color: #FABE28;
                 }
             p{
                 padding-bottom: 10px;
                 padding-top: 12px;
+            }
+            ul {
+                list-style-image: url('/resume/images/heart_bullet_yellow.png');
+                list-style-position: inside;
+            }
+            li{
+               border:dashed #FF003C 1px; 
             }
             footer{
                 margin-top: 30px;
