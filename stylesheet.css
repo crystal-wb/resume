@@ -1,7 +1,34 @@
+            @font-face{
+                font-family: billy-angel_rainbow;
+                src: url(/resume/personal_use_fonts/rainbow_bridge_personal_use.ttf);
+            }
+            @font-face{
+                font-family: cookie-monster;
+                src: url(/resume/personal_use_fonts/cookie-monster.ttf);
+            }
+            @font-face{
+                font-family: cutie-patootie-skinny;
+                src: url(/resume/personal_use_fonts/cutie-patootie-skinny.ttf);
+            }
+            @font-face{
+                font-family: cutie-patootie-medium;
+                src: url(/resume/personal_use_fonts/cutie-patootie.ttf);
+            }
             body{
                 margin: 0;
-                font-family: Arial;
-                background-color: #FFFFFF;
+                font-family: cutie-patootie-skinny;
+            }
+            .aboutbody{
+                background-color: #ff99cc;
+            }
+            .workbody{
+                background-color: #ff9900;
+            }
+            .contactbody{
+                background-color: #663366;
+            }
+            .hobbiesbody{
+                background-color: #00cccc;
             }
             header{
                 background: url("/resume/images/unicorn_banner 1.png");
@@ -14,54 +41,64 @@
             nav{
                 overflow: hidden;
             }
-            nav a{
+            nav a:link{
                 float: right;
                 display: block;
                 text-align: center;
-                color:#FFFFFF;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 17px;
+                font-size: 30px;
+                color:white;
+                font-family: cutie-patootie-medium;
             }
-            nav a: hover{
-                float:right;
+            nav a:visited{
+                float: right;
                 display: block;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 17px;
-                color:#FF8A00;
+                font-size: 30px;
+                color:#663366;
+                font-family: cutie-patootie-medium;
             }
-            nav a: active{
-                float:right;
+            nav a:hover{
+                float: right;
                 display: block;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 17px;
-                color:#00C176;
+                font-size: 30px;
+                color:#ff9900;
+                font-family: cutie-patootie-medium;
             }
-            nav a: visited{
-                float:right;
+             nav a:active{
+                float: right;
                 display: block;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                font-size: 17px;
-                color:#88C100;
+                font-size: 30px;
+                color:#ff99ff;
+                font-family: cutie-patootie-medium;
             }
             h1{
                 color:#FF003C;
                 opacity: 0.8;
                 text-align:center;
-                margin-top: 294px;
+                margin-top: 260px;
                 background-color: #FABE28;
+                font-family: billy-angel_rainbow;
+                font-size: 50px;
+                padding-top: 12px;
+                padding-bottom: 14px;
             }
             .style1{
                 margin-top: 40px;
                 padding-top: 50px;
                 color:#FF003C;
                 text-align: center;
+                font-family: cookie-monster;
+                font-size: 80px;
             }
             .picstyle1{
                 display: block;
@@ -119,6 +156,8 @@
                 padding-top: 50px;
                 margin-left: 40px;
                 color:#FF003C;
+                font-family: cookie-monster;
+                font-size: 80px;
             }
             .style3{
                 margin-top: 40px;
@@ -127,6 +166,8 @@
                 color:white;
                 text-align: center;
                 border:dashed white 1px;
+                font-family: cookie-monster;
+                font-size: 80px;
             }
             .style4{
                 margin-top: 40px;
@@ -134,6 +175,8 @@
                 padding-bottom: 40px;
                 color:#FABE28;
                 text-align: center;
+                font-family: cookie-monster;
+                font-size: 80px;
             }
             #logo{
                 height:40px;
@@ -144,10 +187,11 @@
                 color:#FF003C;
                 opacity: 0.8;
                 text-align:center;
-                font-size:1.2em;
+                font-size:1.3em;
                 padding-top:10px;
                 padding-bottom: 12px;
                 background-color: #FABE28;
+                font-family: billy-angel_rainbow;
                 }
             p{
                 padding-bottom: 10px;
@@ -158,6 +202,7 @@
                 text-align: justify;
                 margin:auto;
                 padding-bottom: 50px;
+                font-family: cutie-patootie-medium;
             }
             ul {
                 list-style-image: url('/resume/images/heart_bullet_yellow.png');
@@ -179,15 +224,15 @@
                 margin-top: 30px;
                 background-color: #00C176;
                 color: white;
-                font-size: 16px;
+                font-size: 25px;
                 padding-top: 14px;
                 padding-bottom: 16px;
+                font-family: cutie-patootie-skinny;
             }
-            footer a{
+            footer address a{
                 text-decoration: none;
-                color:#663366;
+                font-family: Arial;
             }
             footer address{
                 margin-left: 20px;
-                text-decoration: none;
             }
